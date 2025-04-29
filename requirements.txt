@@ -1,9 +1,7 @@
-pandas 
-numpy
-beautifulsoup4
-re
-matplotlib
-seaborn
 streamlit
 pymongo
-io
+pandas
+matplotlib
+seaborn
+sklearn
+numpy
