@@ -1,7 +1,6 @@
-streamlit
-pymongo
-pandas
-matplotlib
-seaborn
-sklearn
-numpy
+streamlit==1.13.0
+pandas==1.3.0
+pymongo==4.3.3
+numpy==1.21.0
+matplotlib==3.5.0
+seaborn==0.12.0
