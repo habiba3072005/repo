@@ -1,6 +1,6 @@
 pandas 
 numpy
-bs4
+beautifulsoup4
 re
 matplotlib
 seaborn
