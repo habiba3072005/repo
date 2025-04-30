@@ -103,7 +103,7 @@ st.subheader("📌 Correlation Heatmap of Player Statistics")
 numeric_cols = ['Age', 'G', 'MP', 'PTS', 'TRB', 'AST', 'STL', 'BLK', 'FG%', '3P%', '2P%', 'FT%']
 plt.figure(figsize=(14,10))
 corr = df[numeric_cols].corr()
-sns.heatmap(corr, annot=True, cmap='grayes', fmt=".2f", linewidths=.5)
+sns.heatmap(corr, annot=True, cmap='greys', fmt=".2f", linewidths=.5,cbar_kws={"shrink":0.8})
 st.pyplot(plt.gcf())
 st.markdown("---")
 
